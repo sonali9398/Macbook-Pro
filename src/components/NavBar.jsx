@@ -1,8 +1,8 @@
 import React from 'react'
 import { navLinks } from '../constants'
-import logo from '../../apple-macbook_public/public/logo.svg'
-import search from '../../apple-macbook_public/public/search.svg'
-import cart from '../../apple-macbook_public/public/cart.svg'
+import logo from '../assets/logo.svg'
+import search from '../assets/search.svg'
+import cart from '../assets/cart.svg'
 
 const NavBar = () => {
   return (

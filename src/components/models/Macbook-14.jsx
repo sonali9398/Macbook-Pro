@@ -21,9 +21,9 @@ export default function MacbookModel14(props) {
 
   // const screen = useVideoTexture(texture);
 
-  const { nodes, materials, scene } = useGLTF('/apple-macbook_public/public/models/macbook-14-transformed.glb');
+  const { nodes, materials, scene } = useGLTF('/models/macbook-14-transformed.glb');
 
-  const texture = useTexture('/apple-macbook_public/public/screen.png')
+  const texture = useTexture('/screen.png')
   
   texture.colorSpace = SRGBColorSpace;
   texture.needsUpdate = true;
@@ -65,4 +65,4 @@ export default function MacbookModel14(props) {
   )
 }
 
-useGLTF.preload('/apple-macbook_public/public/models/macbook-14-transformed.glb')
+useGLTF.preload('/models/macbook-14-transformed.glb')

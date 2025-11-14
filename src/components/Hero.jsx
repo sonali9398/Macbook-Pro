@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import title from '../../apple-macbook_public/public/title.png'
-import hero from '../../apple-macbook_public/public/videos/hero.mp4'
+import title from '../assets/title.png'
+import hero from '../assets/videos/hero.mp4'
 // import {useRef} from react;
 
 function Hero(){
