@@ -44,7 +44,7 @@ function ProductViewer(){
                 {/* <MacbookModel14 scale={0.06} position={[0,0,0]}/> */}
 
                 <OrbitControls enableZoom={false}/>
-                <ModelSwitcher scale={scale} isMobile={isMobile}/>
+                <ModelSwitcher scale={isMobile ? scale - 0.03 : scale} isMobile={isMobile}/>
             </Canvas>
 
         </section>

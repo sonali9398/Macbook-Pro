@@ -296,7 +296,9 @@ body {
     }
   }
 
-  #highlights {
+  
+
+   #highlights {
     @apply container mx-auto lg:py-40 max-lg:px-5;
 
     h2 {
@@ -341,20 +343,20 @@ body {
           @apply font-semibold text-4xl max-w-2xs;
         }
         .apple-gradient {
-          @apply  p-4 sm:p-6 md:p-10 rounded-3xl flex items-center gap-7 relative;
+          @apply p-10 rounded-3xl flex items-center gap-7 relative;
 
           background: #1d1d1f;
-          background-clip: padding-box; /* !important */
-          border: 3px solid transparent; /* !important */
+          background-clip: padding-box; 
+          border: 3px solid transparent; 
 
-          ::before {
+          &::before {
             content: "";
             pointer-events: none;
             position: absolute;
             inset: 0px;
             z-index: -1;
-            margin: -5px; /* !important */
-            border-radius: 24px; /* !important */
+            margin: -5px; 
+            border-radius: 24px; 
             background: linear-gradient(
               91deg,
               #0096ff 0%,
@@ -399,6 +401,7 @@ body {
       }
     }
   }
+
 
   footer {
     @apply container mx-auto py-7 max-lg:px-5;

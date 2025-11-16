@@ -35,16 +35,17 @@ const Highlights = () => {
           </div>
 
           <div>
-            <img src='/sun.png' alt='sun'/>
-            <p>A stunning <br/>
+            <img src='/sun.png' alt='sun'  className="hidden lg:block" />
+            {/* <p>A stunning <br/>
                 Liquid Retina XDR<br/>
-                dispay</p>
+                dispay</p> */}
+                <p>A stunning Liquid Retina XDR dispay</p>
           </div>
         </div>
 
         <div className='right-column'>
           <div className='apple-gradient'>
-            <img src='/ai.png' alt='ai'/>
+            <img src='/ai.png' alt='ai'  className="hidden lg:block"/>
             <p>Built for<br/>
                 <span>Apple Intelligence</span></p>
           </div>
